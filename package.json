@@ -1,0 +1,33 @@
+{
+  "name": "ble_node",
+  "version": "1.0.0",
+  "description": "Simple Bluetooth Low Energy advertiser and scanner using bleno",
+  "main": "index.js",
+  "engines": {
+    "node": "<=0.10"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "bleno": "git+https://redmusicxd@github.com/redmusicxd/bleno.git",
+    "noble": "git+https://redmusicxd@github.com/redmusicxd/noble.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redmusicxd/bleno_automation.git"
+  },
+  "keywords": [
+    "bleno",
+    "node",
+    "ble"
+  ],
+  "author": "Dan Negru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redmusicxd/bleno_automation/issues"
+  },
+  "homepage": "https://github.com/redmusicxd/bleno_automation#readme"
+}
